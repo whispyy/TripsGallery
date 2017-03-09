@@ -2,7 +2,7 @@
     'use strict';
     
     angular
-    .module('fjs.core', [
+    .module('app.core', [
         'ngRoute'
     ]);
     

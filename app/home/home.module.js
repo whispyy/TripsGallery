@@ -2,6 +2,6 @@
     'use strict';
     
     angular
-    .module('fjs.hello', []);
+    .module('app.home', []);
     
 })();

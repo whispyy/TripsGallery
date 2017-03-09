@@ -2,16 +2,16 @@
     'use strict';
     
     angular
-    .module('fjs.hello')
+    .module('app.home')
     .config(helloRouting);
     
     helloRouting.$inject = ['$routeProvider'];
     
     function helloRouting($routeProvider) {
         $routeProvider.when('/', {
-           controller: 'HelloController',
+           controller: 'HomeController',
            controllerAs: 'vm',
-           templateUrl: 'app/hello/hello.html'
+           templateUrl: 'app/home/home.html'
         });
     }
     

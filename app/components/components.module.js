@@ -2,6 +2,6 @@
     'use strict';
     
     angular
-    .module('fjs.components', []);
+    .module('app.components', []);
     
 })();
