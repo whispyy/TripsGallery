@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html data-ng-app="fjs">
+    <head>
+        <title>Whispyy - Portfolio</title>
+        
+        <meta charset="UTF-8">
+        
+        <!-- angular lib -->
+        <script src="content/lib/angular.min.js"></script>
+        <script src="content/lib/angular-route.min.js"></script>
+        
+        <!-- materialize lib -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="content/lib/jquery.min.js"></script>
+        <script src="content/lib/materialize/js/materialize.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="content/lib/materialize/css/materialize.min.css">
+
+        <!-- intern scripts -->
+        <script src="app/app.module.js"></script>
+        <script src="app/core/core.module.js"></script>
+        
+        <script src="app/hello/hello.module.js"></script>
+        <script src="app/hello/hello.route.js"></script>
+        <script src="app/hello/hello.controller.js"></script>
+        
+        <script src="app/components/components.module.js"></script>
+        <script src="app/components/topbar/topbar.directive.js"></script>
+    </head>
+    <body>
+        <topbar></topbar>
+        <div data-ng-view></div>
+    </body>
+</html>
+        
+        
